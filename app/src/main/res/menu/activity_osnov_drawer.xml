@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_routs"
+                android:icon="@drawable/ic_menu_routs"
+                android:title="Маршрут"/>
+        <item
+                android:id="@+id/nav_cities"
+                android:icon="@drawable/ic_menu_city"
+                android:title="Города"/>
+        <item
+                android:id="@+id/nav_users"
+                android:icon="@drawable/ic_menu_users"
+                android:title="Сотрудники"/>
+    </group>
+
+    <item android:title="Связь с руководством">
+        <menu>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Сообщить о проблеме"/>
+        </menu>
+    </item>
+
+</menu>
